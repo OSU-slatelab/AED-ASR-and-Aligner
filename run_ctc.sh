@@ -1,0 +1,21 @@
+#train-path '/research/nfs_fosler_1/vishal/text/libri/train_full_960.csv' \
+python main.py \
+	--nnodes 1 \
+	--gpus 1 \
+	--node_rank 0 \
+	--gpu-num 1 \
+	--nepochs 15 \
+	--epochs-done 0 \
+	--train-path '/research/nfs_fosler_1/vishal/text/readr/train1.csv' \
+	--logging-file "logs/ctc_corner_libri960_readr_res40_char.log" \
+	--save-path "/research/nfs_fosler_1/vishal/saved_models/ctc_corner_libri960_readr_res40_char.pth.tar" \
+	--ckpt-path "/research/nfs_fosler_1/vishal/saved_models/ctc_corner_libri960_res40_char.pth.tar" \
+	--batch-size 32 \
+	--bsz-small 8 \
+	--nspeech-feat 80 \
+	--sample-rate 16000 \
+	--lr 0.0002 \
+	--ctc-wt 1.0 \
+	--clip 0.5 \
+	--corpus 'readr' \
+	--dropout 0.15

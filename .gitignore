@@ -1,0 +1,10 @@
+*.swp
+attn_asr_*
+*.npy
+decodes
+logs
+models2.py
+run_asr2.sh
+run_ens.sh
+run_fa2.sh
+scratch.py
