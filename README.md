@@ -9,3 +9,7 @@ This repository contains an implementation of attention based ASR using LSTMs. F
 `run_fa.sh` will run a forced alignment using an AED ASR model saved at `--ckpt-path`.
 * `--force-align` will run the AED based aligner
 * `--force-align-ctc` will run the CTC based aligner
+
+## Acknowledgement
+
+This work was funded by NSF grant 2008043, "RI: Small: Early Elementary Reading Verification in Challenging Acoustic Environments."
