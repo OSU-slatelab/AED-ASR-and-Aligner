@@ -2,6 +2,7 @@
 attn_asr_*
 *.npy
 decodes
+__pycache__
 logs
 models2.py
 run_asr2.sh
