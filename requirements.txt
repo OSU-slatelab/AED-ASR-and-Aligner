@@ -1,0 +1,111 @@
+accelerate==0.30.0
+aiohttp==3.8.4
+aiosignal==1.3.1
+antlr4-python3-runtime==4.8
+appdirs==1.4.4
+async-timeout==4.0.2
+attrs==22.2.0
+audiolm-pytorch==2.0.7
+audioread==3.0.0
+beartype==0.18.5
+bitarray==2.9.2
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1707022139797/work/certifi
+cffi==1.15.1
+charset-normalizer==2.1.1
+click==8.1.7
+colorama==0.4.6
+conformer==0.2.5
+Cython==3.0.10
+datasets==2.11.0
+decorator==5.1.1
+dill==0.3.6
+docker-pycreds==0.4.0
+einops==0.8.0
+einx==0.2.2
+ema-pytorch==0.4.6
+encodec==0.1.1
+fairseq==0.12.2
+filelock @ file:///home/conda/feedstock_root/build_artifacts/filelock_1698714947081/work
+flit_core @ file:///opt/conda/conda-bld/flit-core_1644941570762/work/source/flit_core
+frozendict==2.4.3
+frozenlist==1.3.3
+fsspec==2024.2.0
+gateloop-transformer==0.2.4
+gitdb==4.0.11
+GitPython==3.1.43
+huggingface-hub==0.20.3
+hydra-core==1.0.7
+HyperPyYAML==1.1.0
+idna==3.4
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1704966972576/work
+jiwer==2.0.0
+joblib==1.2.0
+lazy_loader==0.3
+Levenshtein==0.21.1
+librosa==0.10.1
+llvmlite==0.40.1
+local-attention==1.9.1
+loralib==0.1.2
+lxml==5.2.1
+MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1648737547956/work
+mkl-fft==1.3.1
+mkl-random @ file:///home/builder/ci_310/mkl_random_1641843545607/work
+mkl-service==2.4.0
+mpmath @ file:///home/conda/feedstock_root/build_artifacts/mpmath_1678228039184/work
+msgpack==1.0.5
+multidict==6.0.4
+multiprocess==0.70.14
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1698504735452/work
+numba==0.57.1
+numpy @ file:///croot/numpy_and_numpy_base_1672336185480/work
+omegaconf==2.0.6
+packaging==23.0
+pandas==1.5.2
+platformdirs==3.10.0
+pooch==1.7.0
+portalocker==2.8.2
+progress==1.5
+protobuf==3.20.0
+psutil==5.9.8
+pyarrow==11.0.0
+pycparser==2.21
+python-dateutil==2.8.2
+python-Levenshtein==0.21.1
+pytorch-warmup==0.1.1
+pytz==2022.7
+PyYAML @ file:///home/conda/feedstock_root/build_artifacts/pyyaml_1648757090803/work
+rapidfuzz==3.1.1
+regex==2022.10.31
+requests==2.28.1
+responses==0.18.0
+rotary-embedding-torch==0.5.3
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.7
+sacrebleu==2.4.2
+safetensors==0.4.2
+scikit-learn==1.2.0
+scipy==1.10.0
+sentencepiece==0.1.97
+sentry-sdk==2.1.1
+setproctitle==1.3.3
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+smmap==5.0.1
+soundfile==0.12.1
+soxr==0.3.6
+speechbrain==0.5.13
+sympy @ file:///home/conda/feedstock_root/build_artifacts/sympy_1684180539862/work
+tabulate==0.9.0
+textdistance==4.1.5
+threadpoolctl==3.1.0
+tokenizers==0.15.2
+torch==2.2.1
+torchaudio==2.2.1
+tqdm==4.64.1
+transformers==4.38.0
+triton==2.2.0
+typing_extensions==4.11.0
+urllib3==1.26.14
+vector-quantize-pytorch==1.14.12
+wandb==0.16.6
+xxhash==3.2.0
+yarl==1.8.2
