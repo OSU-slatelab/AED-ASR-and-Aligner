@@ -2,6 +2,10 @@
 
 This repository contains an implementation of attention based ASR using LSTMs. Further, this ASR model is used to build a Forced Aligner.
 
+`run_asr.sh` will train AED based ASR using speechbrain.
+
+`run_decode_parallel.sh` will run beam search
+
 `run_fa.sh` will run a forced alignment using an AED ASR model saved at `--ckpt-path`.
 * `--force-align` will run the AED based aligner
 * `--force-align-ctc` will run the CTC based aligner
